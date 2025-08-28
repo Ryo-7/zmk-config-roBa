@@ -85,13 +85,13 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R             &kp T                                           &kp Y        &kp U  &lt 6 I    &kp O    &kp P
-&kp A             &kp S         &kp D         &kp F             &kp G             &kp LS(LG(S))      &kp GRAVE  &kp H        &kp J  &kp K      &kp L    &kp SEMICOLON
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V             &kp B             &kp ESCAPE         &kp TILDE  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp TAB           &kp LEFT_WIN  &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 1 LANGUAGE_2  &kp SPACE          &kp ENTER  &lt 2 LANG4                             &kp BACKSPACE
+&kp Q             &kp W         &kp E         &kp R             &kp T                                           &kp Y             &kp U  &lt 6 I    &kp O    &kp P
+&kp A             &kp S         &kp D         &kp F             &kp G             &kp LS(LG(S))      &kp GRAVE  &kp H             &kp J  &kp K      &kp L    &kp SEMICOLON
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V             &kp B             &kp ESCAPE         &kp TILDE  &kp N             &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp TAB           &kp LEFT_WIN  &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 1 LANGUAGE_2  &kp SPACE          &kp ENTER  &lt 2 LANGUAGE_1                             &kp BACKSPACE
             >;
 
-            sensor-bindings = <&inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN>;
+            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
         };
 
         layer1 {
