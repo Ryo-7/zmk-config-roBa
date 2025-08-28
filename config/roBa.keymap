@@ -83,7 +83,7 @@
 &kp Q             &kp W         &kp E         &kp R             &kp T                                           &kp Y        &kp U  &lt 6 I    &kp O    &kp P
 &kp A             &kp S         &kp D         &kp F             &kp G             &kp LS(LG(S))      &kp GRAVE  &kp H        &kp J  &kp K      &kp L    &kp SEMICOLON
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V             &kp B             &kp ESCAPE         &kp TILDE  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp TAB           &kp LEFT_WIN  &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 1 LANGUAGE_7  &kp SPACE          &kp ENTER  &lt 2 LANG4                             &kp DEL
+&kp TAB           &kp LEFT_WIN  &kp LEFT_ALT  &kp LEFT_COMMAND  &lt 1 LANGUAGE_2  &kp SPACE          &kp ENTER  &lt 2 LANG4                             &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -91,14 +91,14 @@
 
         layer1 {
             bindings = <
-&kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_N4  &kp KP_N5                        &kp KP_N6  &kp KP_N7       &kp KP_N8     &kp KP_N9       &kp KP_N0
-&trans     &trans     &trans     &trans     &trans     &trans       &kp F13  &kp F6     &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
-&trans     &trans     &trans     &trans     &trans     &kp ESC      &trans   &trans     &trans          &trans        &trans          &kp F11
-&trans     &trans     &trans     &trans     &trans     &trans       &trans   &trans                                                   &kp F12
+&kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_N4  &kp KP_N5                        &kp KP_N6  &kp KP_N7           &kp KP_N8         &kp KP_N9           &kp KP_N0
+&trans     &trans     &mkp MB2   &mkp MB1   &trans     &trans       &kp F13  &kp F6     &kp LEFT_ARROW      &kp UP_ARROW      &kp DOWN_ARROW      &kp RIGHT_ARROW
+&trans     &trans     &trans     &trans     &trans     &kp ESC      &trans   &trans     &kp LC(LEFT_ARROW)  &kp LC(UP_ARROW)  &kp LC(DOWN_ARROW)  &kp LC(RIGHT_ARROW)
+&trans     &trans     &trans     &trans     &trans     &trans       &trans   &trans                                                               &kp F12
             >;
         };
 
-        NUM {
+        layer2 {
             bindings = <
 &kp EXCLAMATION             &kp AT_SIGN      &kp HASH         &kp DOLLAR       &kp PERCENT                                           &kp CARET       &kp AMPERSAND  &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
 &kp SLASH                   &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp GRAVE  &kp KP_MINUS    &kp EQUAL      &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp SINGLE_QUOTE
