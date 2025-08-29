@@ -88,7 +88,7 @@
 &kp Q           &kp W      &kp E         &kp R                        &kp T                                      &kp Y             &kp U  &lt 6 I    &kp O    &kp P
 &kp A           &kp S      &kp D         &kp F                        &kp G      &none                &kp GRAVE  &kp H             &kp J  &kp K      &kp L    &kp SEMICOLON
 &kp Z           &kp X      &kp C         &kp V                        &kp B      &kp BACKSPACE        &kp TILDE  &kp N             &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LEFT_SHIFT  &kp LCTRL  &kp LEFT_ALT  &mt LEFT_COMMAND LANGUAGE_1  &lt 1 TAB  &mt RCTRL SPACE      &kp ENTER  &lt 2 LANGUAGE_1                             &kp ESC
+&kp LEFT_SHIFT  &kp LCTRL  &kp LEFT_ALT  &mt LEFT_COMMAND LANGUAGE_2  &lt 1 TAB  &mt RCTRL SPACE      &kp ENTER  &lt 2 LANGUAGE_1                             &kp ESC
             >;
 
             sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
@@ -96,9 +96,9 @@
 
         layer1 {
             bindings = <
-&kp KP_N1  &kp KP_N2   &kp KP_N3  &kp KP_N4  &kp KP_N5                                  &kp KP_N6  &kp KP_N7           &kp KP_N8         &kp KP_N9           &kp KP_N0
-&trans     &kp K_BACK  &mkp MB2   &mkp MB1   &kp K_FORWARD  &trans             &kp F13  &kp F6     &kp LEFT_ARROW      &kp UP_ARROW      &kp DOWN_ARROW      &kp RIGHT_ARROW
-&trans     &trans      &trans     &trans     &trans         &kp BACKSPACE      &trans   &trans     &kp LC(LEFT_ARROW)  &kp LC(UP_ARROW)  &kp LC(DOWN_ARROW)  &kp LC(RIGHT_ARROW)
+&kp KP_N1  &kp KP_N2   &kp KP_N3  &kp KP_N4  &kp KP_N5                                  &kp KP_N6  &kp KP_N7           &kp KP_N8           &kp KP_N9         &kp KP_N0
+&trans     &kp K_BACK  &mkp MB2   &mkp MB1   &kp K_FORWARD  &trans             &kp F13  &kp F6     &kp LEFT_ARROW      &kp DOWN_ARROW      &kp UP_ARROW      &kp RIGHT_ARROW
+&trans     &trans      &trans     &trans     &trans         &kp BACKSPACE      &trans   &trans     &kp LC(LEFT_ARROW)  &kp LC(DOWN_ARROW)  &kp LC(UP_ARROW)  &kp LC(RIGHT_ARROW)
 &trans     &trans      &trans     &trans     &trans         &trans             &trans   &trans                                                               &kp ESCAPE
             >;
         };
